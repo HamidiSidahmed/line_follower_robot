@@ -18,7 +18,9 @@ void setup() {
   pinMode(leftMotorPin2, OUTPUT);
   pinMode(rightMotorPin1, OUTPUT);
   pinMode(rightMotorPin2, OUTPUT);
-  
+  pinMode(leftSensorPin,INPUT);
+  pinMode(centerSensorPin,INPUT);
+  pinMode(rightSensorPin,INPUT);
   // Serial monetor for verification
   Serial.begin(9600);
 }
